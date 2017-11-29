@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Farm</title>
+    <link rel="stylesheet" type="text/css" href="farm.css">
+</head>
+
+<body>
+    <div class="farmpic"></div>
+    <img class="horse" src="horse.png" onclick="playhorse()">
+    <img class="cow" src="cow.png" onclick="playcow()">
+    <img class="pig" src="pig.png" onclick="playpig()">
+    <img class="rooster" src="rooster.png" onclick="playrooster()">
+    <audio src="pig.mp3" data-key="pig">
+    <audio src="horse.mp3" data-key="horse">
+    <audio src="rooster.mp3" data-key="rooster">
+    <audio src="cow.mp3" data-key="cow">
+        <script type="text/javascript">
+
+        function playhorse() {
+            var audio = document.querySelector("audio[data-key='horse']");
+            audio.currentTime = 0;
+            audio.play();
+        }
+
+        function playcow() {
+            var audio = document.querySelector("audio[data-key='cow']");
+            audio.currentTime = 0;
+            audio.play();
+        }
+
+        function playpig() {
+            var audio = document.querySelector("audio[data-key='pig']");
+            audio.currentTime = 0;
+            audio.play();
+        }
+
+        function playrooster() {
+            var audio = document.querySelector("audio[data-key='rooster']");
+            audio.currentTime = 0;
+            audio.play();
+        }
+        </script>
+</body>
+
+</html>

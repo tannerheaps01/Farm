@@ -1,0 +1,37 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.farmpic{
+	background-image: url('farmpic.jpg');
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cow{
+	width: 20vw;
+	position: absolute;
+	left: 100px;
+	top: 580px;
+}
+.rooster{
+	width: 10vw;
+	position: absolute;
+	left: 500px;
+	top:650px;
+
+}
+.pig{
+	width: 15vw;
+	position: absolute;
+	left: 700px;
+	top: 650px;
+}
+.horse{
+	width:25vw;
+	position: absolute;
+	left: 900px;
+	top: 500px;
+}
